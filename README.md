@@ -46,12 +46,12 @@ conda activate vqgan
 conda install -c conda-forge ffmpeg
 conda install ipykernel
 pip install git+https://github.com/openai/CLIP.git taming-transformers==0.0.1 ftfy==6.0.3 regex pytorch-lightning==1.4.9 kornia==0.5.11 imageio==2.9.0 omegaconf==2.1.1 torch-optimizer==0.1.0 piexif==1.1.3
-pip install git+https://github.com/rkhamilton/vqgan-clip-generator.git
+pip install git+https://github.com/momo-the-monster/vqgan-clip-generator.git
 ```
 
 To upgrade to the latest version of this package, use the standard pip upgrade command.
 ```sh
-pip install git+https://github.com/rkhamilton/vqgan-clip-generator.git --upgrade 
+pip install git+https://github.com/momo-the-mosnter/vqgan-clip-generator.git --upgrade 
 ```
 If you want to get into the guts of the code and run a local development copy so you can tinker with the algorithm (be my guest!), do not use pip to install it. Instead, clone and setup in develop mode.
 ```sh
